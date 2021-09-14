@@ -1,10 +1,17 @@
 /*eslint-disable global-require*/
 "use strict";
-module.exports = {
-  getStatistics: require("./lib/getStatistics"),
-  glbToGltf: require("./lib/glbToGltf"),
-  gltfToGlb: require("./lib/gltfToGlb"),
-  processGlb: require("./lib/processGlb"),
-  processGltf: require("./lib/processGltf"),
-  removeExtension: require("./lib/removeExtension"),
+import getStatistics from "./lib/getStatistics";
+import glbToGltf from "./lib/glbToGltf";
+import gltfToGlb from "./lib/gltfToGlb";
+import processGlb from "./lib/processGlb";
+import processGltf from "./lib/processGltf";
+import removeExtension from "./lib/removeExtension";
+
+export default {
+  getStatistics,
+  glbToGltf,
+  gltfToGlb,
+  processGlb,
+  processGltf,
+  removeExtension,
 };

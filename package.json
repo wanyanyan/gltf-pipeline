@@ -1,5 +1,5 @@
 {
-  "name": "gltf-pipeline",
+  "name": "@wanyanyan/gltf-pipeline",
   "version": "3.0.4",
   "description": "Content pipeline tools for optimizing glTF assets.",
   "license": "Apache-2.0",
